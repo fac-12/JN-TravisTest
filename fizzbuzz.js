@@ -6,9 +6,9 @@ function fizzbuzz(num) {
   } else if (num % 5 === 0) {
     return 'Buzz'
   }
-  // else {
-  //   return num
-  // }
+  else {
+    return num
+  }
 }
 
 module.exports = fizzbuzz;
