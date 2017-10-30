@@ -5,7 +5,8 @@ function fizzbuzz(num) {
     return 'Fizz'
   } else if (num % 5 === 0) {
     return 'Buzz'
-  } else {
+  }
+  else {
     return num
   }
 }
@@ -13,5 +14,5 @@ function fizzbuzz(num) {
 module.exports = fizzbuzz;
 
 function test() {
-  
+
 }
