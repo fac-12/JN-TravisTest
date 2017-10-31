@@ -6,9 +6,16 @@ function fizzbuzz(num) {
   } else if (num % 5 === 0) {
     return 'Buzz'
   }
+  else if (num > 100) {
+   return 'Never'
+  }
   else {
     return num
   }
 }
 
 module.exports = fizzbuzz;
+
+function test() {
+
+}
