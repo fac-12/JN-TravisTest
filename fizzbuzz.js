@@ -5,7 +5,9 @@ function fizzbuzz(num) {
     return 'Fizz'
   } else if (num % 5 === 0) {
     return 'Buzz'
-  }  
+  } else if (num > 10000) {
+    return 'never'
+  }
   else {
     return num
   }
